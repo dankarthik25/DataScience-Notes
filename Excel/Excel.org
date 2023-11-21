@@ -1,0 +1,52 @@
+#+TITLE: DataAnalytics by CodeBasic
+#+AUTHOR: Karthik
+#+SETUPFILE: ~/mynotes/org2html/org-theme-collection/theme2.setup
+
+
+* Installation
+- Using software with microsoft login
+- Use online free with microsoft
+
+* Famailar With Excel
+Control + Scroll Mouse - increase cell size
+C + z (undo)
+C + c (copy)
+C + v (paste)
+Top Formula : https://www.simplilearn.com/tutorials/excel-tutorial/excel-formulas
+Condition Format
+Sort, Filter
+Show/Remove Grid,Header
+Formula
+- =AVERAGE(Table1[Amount])
+- =SUM([Amount])
+- =IF(D3>50,"YES","NO")
+-   
+
+Category : Total Amount
+Food  =SUMIF(B2:B12,'Food',D2:D12)
+Utitlies=  
+
+*Copy Paste Formula*
+- *Paste below cell*: will move the range
+Food  =SUMIF(B2:B12,'Food',D2:D12)
+Utitlies= SUMIF(B2:B12,'Utilites',D2:D12)
+
+- *Formula Copy* =Fix Both column and row=
+-  =SUMIF($B$2:$B$12,'Food',$D$2:$D$12)
+
+- *Formula Copy* =Fix Both column=
+-  =SUMIF(B2:B12,'Food',D2:D12) if expand it to right or left then the column will change
+  to *Lock Column*
+  -   =SUMIF($B2:$B12,'Food',$D2:$D12) this will lock the no
+#+begin_quote
+Note:
+- Locking referenced cells in aformula help prevent dynamic changes when the formula is copied or moved to another cell.
+- To Lock a column or row referene, put a '$' in front of it. You can also use the F4 Key to do the same.
+
+- You have the flexibility to lock either row or column  
+#+end_quote
+
+
+** Table in excel
+
+  
